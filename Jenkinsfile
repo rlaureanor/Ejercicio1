@@ -6,5 +6,10 @@ pipeline {
         echo 'Se inicia'
       }
     }
+    stage('test1') {
+      steps {
+        echo 'Se inicio Test'
+      }
+    }
   }
 }
